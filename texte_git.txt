@@ -1,0 +1,15 @@
+Basculer vers la nouvelle branche :
+    git checkout <nom-de-la-branche>
+Ou vous pouvez utiliser la commande git switch si vous avez une version de Git plus récente :
+    git switch <nom-de-la-branche>
+Créer une nouvelle branche et basculer dessus en une seule commande :
+   git checkout -b <nom-de-la-branche>
+
+Pousser la nouvelle branche vers GitHub :
+    git push -u origin <nom-de-la-branche>
+
+Supprimer une branche locale :
+    git branch -d <nom-de-la-branche>
+
+Supprimer une branche distante :
+    git push origin --delete <nom-de-la-branche>
